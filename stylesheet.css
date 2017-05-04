@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Sans-serif;
+}
+
+h3 {
+    color: white;
+    display: inline-block;
+    clear: both;
+    font-family: "Helvetica Neue", Helvetica, Sans-serif;
+}
+
+¨ form {
+    display: inline-block;
+    text-align: center;
+    clear: both;
+}
+
+p {
+    font-family: "Helvetica Neue", helvetica;
+}
+
+.flex-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /*ni får hoppa ner om ni inte får plats = wrap*/
+}
+
+.flex-items {
+    /*flex: 100px;*/
+    width: 350px;
+    height: 450px;
+    border: 10px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    background-color: pink;
+}
+
+#myInput {
+    font-family: "Helvetica Neue", Helvetica;
+    text-align: center;
+    width: 30%;
+}
+
+input {
+    border: 2px solid lightgrey;
+    width: 75%;
+    padding: 7px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Sans-serif;
+}
+
+.addBtn {
+    padding: 9px;
+    width: 7%;
+    background: pink;
+    color: #555;
+    float: center;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Helvetica Neue", Helvetica, Sans-Serif;
+}
+
+.myInput {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+li:before {
+    content: "♥ ";
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+#list1 {
+    font-family: "Helvetica Neue", Helvetica, Sans-Serif;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+#list2 {
+    font-family: "Helvetica Neue", Helvetica, Sans-Serif;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+.deletebutton {
+    background-color: lightpink;
+    /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.donebutton {
+    background-color: lightpink;
+    /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
